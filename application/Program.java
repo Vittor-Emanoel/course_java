@@ -3,7 +3,7 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import application.Entities.Triangle;
+import application.entities.Triangle;
 
 public class Program {
   public static void main(String[] args){
