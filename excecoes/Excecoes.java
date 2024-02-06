@@ -8,12 +8,13 @@ package excecoes;
 
 public class Excecoes {
   public static void main(String[] args) throws Exception {
-    // try {
-    //   validarNumero();
-    // } catch (Exception e) {
-    //   System.out.println("Deu ruim");
-    //   e.printStackTrace();
-    // // }
+    try {
+      validarNumero();
+    } catch (Exception e) {
+      System.out.println("Deu ruim");
+      e.getMessage();
+      e.printStackTrace();
+    }
 
     // Pessoa p = null;
     // p.getCpf();
