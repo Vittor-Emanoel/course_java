@@ -15,8 +15,6 @@ public class Product {
     this.quantity -= quantity;
   }
   //sobreposição...
-  public String toString() {
 
-  }
 
 }
