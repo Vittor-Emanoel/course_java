@@ -1,7 +1,5 @@
 package excecoes;
 
-import pessoa.Pessoa;
-
 /* CHECKED = VERIFICADAS
  *  UNCHECKED =  NÃO VERIFICADAS
  *  Throws Exception = JOGA PARA A CLASSE DE CIMA 
@@ -15,10 +13,10 @@ public class Excecoes {
     // } catch (Exception e) {
     //   System.out.println("Deu ruim");
     //   e.printStackTrace();
-    // }
+    // // }
 
-    Pessoa p = null;
-    p.getCpf();
+    // Pessoa p = null;
+    // p.getCpf();
     
   }
   
